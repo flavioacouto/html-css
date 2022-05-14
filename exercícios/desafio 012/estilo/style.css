@@ -22,7 +22,7 @@ html, body {
 }
 
 header {
-    background-color: black;
+    background-color: rgb(37, 37, 37);
     color: white;
     text-align: center;
 }
@@ -56,19 +56,39 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2.5em;
+}
+
 section.normal {
     background-color: white;
     color: black;
+    
 }
 section.imagem {
     background-color: rgb(46, 46, 46);
     color: white;
+    box-shadow: inset 7px 7px 15px 0px rgba(0, 0, 0, 0.596);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.096);
+    background-color: rgba(0, 0, 0, 0.233);
+    text-shadow: 1.5px 1.5px 0px black;
+    
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
 }
 
 footer {
